@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "pass",
+    "database": "shop",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "migrationStorageTableName":"migrations"
+  },
+  "test": { 
+    "username": "root",
+    "password": "@Dilip2003",
+    "database": "marwadtech",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "@Dilip2003",
+    "database": "marwadtech",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
